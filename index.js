@@ -44,14 +44,13 @@ const btnCounter = document.getElementById('btnCounter');
 
 //v.4 Ура! Сделал для любой кнопки :-)
 // function createCounter(counter = 0) {
-//   const count = function (event) {
+//   return function count (event) {
 //     console.log('click' + counter--);
 //     if (counter === 0) {
 //       this.disabled = true;
 //       this.removeEventListener('click', count);
 //     }
 //   }
-//   return count;
 // }
 // btnCounter.addEventListener('click', createCounter(3));
 
